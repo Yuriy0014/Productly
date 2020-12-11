@@ -150,6 +150,14 @@ a {
     font-weight: 700;
 }
 
+.tools__inner {
+    padding-bottom: 90px; /*Расстояние от кнопки до низа фоновой картинки */
+    background-image: url('../images/tools-bg.svg');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+}
+
 .tools__items {
     display: flex;
     justify-content: space-between;
@@ -179,7 +187,7 @@ a {
     border-radius: 4px;
     font-weight: 700;
     line-height: 24px;
-    display: inline-block;
+    display: block;
     width: 173px;
     margin: 0 auto;
 }
