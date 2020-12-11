@@ -151,4 +151,22 @@ a {
 
 .tools__items {
     display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+    margin-bottom: 34px;
 }
+
+.tools__item {
+    width: 240px;
+}
+
+.tools__item-img {
+    margin-bottom: 30px;
+}
+
+.tools__item-title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    margin-bottom: 13px;
+} 
