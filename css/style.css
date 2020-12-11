@@ -230,3 +230,8 @@ a {
  .direction__item-text {
     margin-bottom: 25px;
  }
+
+ .direction__list-item {
+     margin-bottom: 30px;
+     padding-left: 65px;
+ }
