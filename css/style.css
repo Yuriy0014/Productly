@@ -23,6 +23,10 @@ a {
     text-decoration: none;
 }
 
+li {
+    list-style: none;
+}
+
 .title {
     color: #2F281E;
 }
@@ -234,4 +238,14 @@ a {
  .direction__list-item {
      margin-bottom: 30px;
      padding-left: 65px;
+     position: relative;
+ }
+ 
+ .direction__list-item::before {
+     content: "";
+     position: absolute;
+     width: 35px;
+     height: 35px;
+     left: 0;
+     background-image: url('../images/icon-check.png');
  }
