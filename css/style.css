@@ -287,3 +287,10 @@ li {
     background-color: #FF9900;
     border-radius: 4px;
 }
+
+.item__item-img {
+    width: 98px;
+    height: 98px;
+    border-radius: 50%;
+    overflow: hidden;
+}
