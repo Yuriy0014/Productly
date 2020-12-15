@@ -302,6 +302,7 @@ li {
     height: 98px;
     border-radius: 50%;
     overflow: hidden;
+    object-fit: cover;
 }
 
 .team__item-text {
@@ -315,4 +316,7 @@ li {
     position: absolute;
     top: 0;
     right: 0;
+    width: 281px;
+    top: -30px;
+    right: 75px;
 }
