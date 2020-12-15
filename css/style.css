@@ -317,3 +317,25 @@ li {
     right: 75px;
     white-space: nowrap;
 }
+
+.team__item-text--right::before,
+.team__item-text--right::after{
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.team__item-text--right::after{
+    width: 17px;
+    height: 17px;
+    bottom: -7px;
+    right: 30px;
+}
+
+.team__item-text--right::before{
+    width: 9px;
+    height: 9px;
+    bottom: -20px;
+    right: 9px;
+}
