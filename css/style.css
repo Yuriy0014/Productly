@@ -22,6 +22,7 @@ button {
 
 a {
     text-decoration: none;
+    color: #544837;
 }
 
 li {
@@ -262,6 +263,7 @@ li {
 .team__inner {
     padding: 230px 0 380px;
     position: relative;
+    margin-bottom: 30px;
 }
 
 .team__item {
