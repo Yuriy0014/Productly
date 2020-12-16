@@ -385,3 +385,18 @@ li {
     left: 30px;
     right: auto;
 }
+
+.blog {
+    margin-bottom: 120px;
+}
+
+.blog__title{
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 51px;
+    margin-bottom: 10px;
+}
+
+.blog__text{
+    margin-bottom: 55px;
+}
