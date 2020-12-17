@@ -1,15 +1,13 @@
-@media (max-width: 992px){
+@media (max-width: 992px) {
     .header__inner {
         flex-wrap: wrap;
         height: auto;
         padding-top: 25px;
     }
-
     .menu {
         order: 1;
         width: 100%;
     }
-
     .menu__list {
         justify-content: flex-end;
         padding-top: 30px;
@@ -17,5 +15,25 @@
 }
 
 @media (max-width: 524px) {
-    
+    .header__inner {
+        display: block;
+    }
+    .menu {
+
+    }
+    .menu__list {
+        display: none;
+    }
+    .menu__btn {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 25px;
+    }
+
+    .user-nav {
+        margin: 0;
+        text-align: center;
+        padding-top: 30px;
+    }
 }
