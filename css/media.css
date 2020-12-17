@@ -18,11 +18,17 @@
     .header__inner {
         display: block;
     }
-    .menu {
-
-    }
     .menu__list {
-        display: none;
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        text-align: center;
+        background-color: #fff;
+    }
+    .menu__list-link{
+        display: block;
+        padding: 10px 0;
     }
     .menu__btn {
         display: block;
@@ -30,10 +36,12 @@
         right: 10px;
         top: 25px;
     }
-
     .user-nav {
         margin: 0;
         text-align: center;
         padding-top: 30px;
+    }
+    .menu__list-item+.menu__list-item {
+        margin-left: 0;
     }
 }
