@@ -25,6 +25,7 @@
         right: 0;
         text-align: center;
         background-color: #fff;
+        transform: translateY(-300%);
     }
     .menu__list-link{
         display: block;
