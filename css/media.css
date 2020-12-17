@@ -27,6 +27,10 @@
         background-color: #fff;
         transform: translateY(-300%);
     }
+    .menu__list.menu__list--active{
+        transform: translateY(0);
+        transition: all .5s;
+    }
     .menu__list-link{
         display: block;
         padding: 10px 0;
